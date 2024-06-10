@@ -1,0 +1,48 @@
+#banner {
+    margin: 40px 0;
+}
+
+#bannerImg {
+    width: 100%;
+}
+
+#offerHeading {
+    text-transform: uppercase;
+    color: 3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+#offerItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.offerItems {
+    height: 260px;
+}
+
+#categoryHeading {
+    text-transform: uppercase;
+    color: 3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+#categoryItemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryItems {
+    height: 260px;
+}

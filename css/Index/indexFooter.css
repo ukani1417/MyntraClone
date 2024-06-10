@@ -1,0 +1,41 @@
+
+#footerContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 16px;
+    padding: 16px;
+    background-color: #FAFBFC;
+}
+
+#categoryLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#policyLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#usefullLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.linkHeading {
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 28px;
+}
+
+.footerLink {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 8px;
+    cursor: pointer;
+    line-height: normal;
+}
